@@ -6,6 +6,8 @@ const sites = [
     { name: "Jon McKesey", url: "https://jonathanmckesey.com/", year: 2027, recent_internship: "Verily" }
 ];
 
+// YOU CAN ADD RECENT_INTERNSHIP OR GENERAL DESCRIPTION! (ex. Software Engineer, Full-Stack Developer, etc.)
+
 // Helper to normalize URLs for comparison
 function normalizeUrl(url) {
     if (!url) return '';
